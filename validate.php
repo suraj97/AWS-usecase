@@ -20,8 +20,8 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
 	
 	foreach($users as $user) { 
 		
-		if(($user['Name'] == $suraj) && 
-			($user['password'] == $suraj1)) { 
+		if(($user['Name'] == $Name) && 
+			($user['password'] == $password)) { 
 				header("Location: adminpage.php"); 
 		} 
 		else { 
